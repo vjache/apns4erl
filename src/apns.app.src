@@ -7,7 +7,7 @@
                   kernel,
                   stdlib,
                   ssl,
-                  jiffy
+                  jsone
                  ]},
   {mod, {apns, []}},
   {env, []},

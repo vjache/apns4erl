@@ -2,8 +2,8 @@ PROJECT=apns
 
 CONFIG?=priv/app.config
 
-DEPS = jiffy sync
-dep_jiffy = git https://github.com/davisp/jiffy 0.14.3
+DEPS = jsone sync
+dep_jsone = git https://github.com/sile/jsone.git master
 dep_sync = git https://github.com/rustyio/sync.git 9c78e7b
 
 TEST_DEPS = mock_apns
