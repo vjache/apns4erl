@@ -3,7 +3,7 @@ PROJECT=apns
 CONFIG?=priv/app.config
 
 DEPS = jsone sync
-dep_jsone = git https://github.com/sile/jsone.git master
+dep_jsone = git https://github.com/sile/jsone.git v0.3.3-hipe
 dep_sync = git https://github.com/rustyio/sync.git 9c78e7b
 
 TEST_DEPS = mock_apns
